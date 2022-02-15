@@ -12,8 +12,6 @@ import Navbar from './Navbar';
 class TodoContainer extends React.Component {
   constructor(props) {
     super(props);
-    this.delTodo(this.id).bind(this);
-    this.handleChange(this.id).bind(this);
     this.state = {
       todos: [
         {

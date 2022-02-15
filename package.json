@@ -17,18 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "npx eslint .",
-    "lintf": "npx eslint --fix .",
-    "style": "npx stylelint \"**/*.{css,scss}\"",
-    "stylef": "npx stylelint --fix \"**/*.{css,scss}\"",
-    "format": "prettier --write \"src/**/*.{js, jsx}\""
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
@@ -47,16 +36,6 @@
     "@babel/eslint-parser": "^7.17.0",
     "@babel/plugin-syntax-jsx": "^7.16.7",
     "@babel/preset-react": "^7.16.7",
-    "@types/react-router-dom": "^5.3.3",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
+    "@types/react-router-dom": "^5.3.3"
   }
 }
